@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+output/
+live-output/
+changed-output/
+*.sqlite
+*.sqlite-journal
