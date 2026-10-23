@@ -1,0 +1,12 @@
+<!doctype html><html lang="en"><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Network Connectivity Monitor</title><style>
+    body{font:16px system-ui;margin:40px auto;padding:0 22px;max-width:1100px;color:#182d3b;background:#f4f7fa}
+    h1{font-size:32px}.cards{display:flex;flex-wrap:wrap;gap:16px}.card{background:white;padding:20px;border:1px solid #dbe4eb;border-radius:10px;min-width:150px}
+    strong{display:block;font-size:26px}table{border-collapse:collapse;background:white;width:100%;margin-top:22px}td,th{padding:12px;text-align:left;border-bottom:1px solid #dbe4eb}.table{overflow:auto}.note{padding:14px;background:#fff4da;border-radius:8px}
+    </style><h1>Network Connectivity Monitor</h1><p class="note">SIMULATED DATA | TCP connection checks; not mobile-network coverage or ICMP packet loss.</p>
+    <div class="cards"><div class="card">Checks<strong>5</strong></div>
+    <div class="card">Reachable<strong>60.0%</strong></div><div class="card">Failed checks<strong>2</strong></div></div>
+    <p>Slow TCP connection threshold: 100 ms. SLOW checks are reachable. All timestamps are UTC.</p>
+    <div class="table"><table><thead><tr><th>Time</th><th>Host</th><th>Port</th><th>DNS ms</th><th>TCP ms</th><th>Status</th></tr></thead><tbody><tr><td>2026-10-18T09:00:00+00:00</td><td>demo-router.example</td><td>443</td><td>3.2</td><td>18.0</td><td>UP</td></tr><tr><td>2026-10-18T09:01:00+00:00</td><td>demo-router.example</td><td>443</td><td>4.1</td><td>145.0</td><td>SLOW</td></tr><tr><td>2026-10-18T09:02:00+00:00</td><td>demo-service.example</td><td>443</td><td>2.9</td><td>N/A</td><td>TCP_ERROR</td></tr><tr><td>2026-10-18T09:03:00+00:00</td><td>demo-name.invalid</td><td>443</td><td>N/A</td><td>N/A</td><td>DNS_ERROR</td></tr><tr><td>2026-10-18T09:04:00+00:00</td><td>demo-router.example</td><td>443</td><td>3.0</td><td>22.0</td><td>UP</td></tr></tbody></table></div>
+    <p>DNS_ERROR: name resolution failed. TCP_ERROR: no connection was established; this alone does not prove the whole host is down.</p></html>
