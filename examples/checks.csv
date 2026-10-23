@@ -1,0 +1,6 @@
+timestamp,host,port,address,dns_ms,connect_ms,status,detail
+2026-10-18T09:00:00+00:00,demo-router.example,443,192.0.2.10,3.2,18.0,UP,Simulated successful connection
+2026-10-18T09:01:00+00:00,demo-router.example,443,192.0.2.10,4.1,145.0,SLOW,Simulated slow connection
+2026-10-18T09:02:00+00:00,demo-service.example,443,192.0.2.20,2.9,,TCP_ERROR,Simulated TCP timeout
+2026-10-18T09:03:00+00:00,demo-name.invalid,443,,,,DNS_ERROR,Simulated name resolution failure
+2026-10-18T09:04:00+00:00,demo-router.example,443,192.0.2.10,3.0,22.0,UP,Simulated recovery
