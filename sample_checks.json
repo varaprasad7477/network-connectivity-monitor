@@ -1,0 +1,7 @@
+[
+  {"timestamp":"2026-10-18T09:00:00+00:00","host":"demo-router.example","port":443,"address":"192.0.2.10","dns_ms":3.2,"connect_ms":18.0,"status":"UP","detail":"Simulated successful connection"},
+  {"timestamp":"2026-10-18T09:01:00+00:00","host":"demo-router.example","port":443,"address":"192.0.2.10","dns_ms":4.1,"connect_ms":145.0,"status":"SLOW","detail":"Simulated slow connection"},
+  {"timestamp":"2026-10-18T09:02:00+00:00","host":"demo-service.example","port":443,"address":"192.0.2.20","dns_ms":2.9,"connect_ms":null,"status":"TCP_ERROR","detail":"Simulated TCP timeout"},
+  {"timestamp":"2026-10-18T09:03:00+00:00","host":"demo-name.invalid","port":443,"address":"","dns_ms":null,"connect_ms":null,"status":"DNS_ERROR","detail":"Simulated name resolution failure"},
+  {"timestamp":"2026-10-18T09:04:00+00:00","host":"demo-router.example","port":443,"address":"192.0.2.10","dns_ms":3.0,"connect_ms":22.0,"status":"UP","detail":"Simulated recovery"}
+]
