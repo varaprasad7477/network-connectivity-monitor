@@ -1,0 +1,9 @@
+{
+  "mode": "simulated",
+  "slow_threshold_ms": 100,
+  "checks": 5,
+  "reachable": 3,
+  "reachability_pct": 60.0,
+  "failures": 2,
+  "average_connect_ms": 61.666666666666664
+}
